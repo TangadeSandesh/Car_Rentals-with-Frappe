@@ -1,0 +1,29 @@
+{
+ "attach_files": "",
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2026-10-24 19:41:25.053804",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Booking",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hey, new booking has arrived!",
+ "message_type": "HTML",
+ "modified": "2026-10-24 19:41:25.053804",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "New Notifcation Arrived",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{doc.customer_name}} booked a vehicle !"
+}
