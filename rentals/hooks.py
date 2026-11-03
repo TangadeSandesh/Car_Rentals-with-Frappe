@@ -149,21 +149,12 @@ app_license = "mit"
 # ---------------
 
 # scheduler_events = {
-# 	"all": [
-# 		"rentals.tasks.all"
-# 	],
-# 	"daily": [
-# 		"rentals.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"rentals.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"rentals.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"rentals.tasks.monthly"
-# 	],
+#     "Cron": {
+#         "30 15 * * 3": [
+#         "rentals.apis.send_payment_reminders"
+# 	]
+# }
+    
 # }
 
 # Testing
